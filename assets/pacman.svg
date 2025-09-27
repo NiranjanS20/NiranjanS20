@@ -1,0 +1,69 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Yellow→Orange gradient -->
+    <linearGradient id="yo" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+
+    <style>
+      .track { opacity:.25 }
+      .dot { filter: drop-shadow(0 0 2px #FFB300); }
+    </style>
+  </defs>
+
+  <!-- dotted track -->
+  <g class="track">
+    <rect x="40" y="65" width="1120" height="10" rx="5" fill="url(#yo)"/>
+  </g>
+
+  <!-- pellets -->
+  <g id="pellets">
+    <!-- 16 dots -->
+    <!-- dots will fade out as Pac-Man passes -->
+    <!-- positions every 65px starting at x=120 -->
+    <!-- dots -->
+    <g fill="url(#yo)">
+      <circle class="dot" cx="120" cy="70" r="8"/>
+      <circle class="dot" cx="185" cy="70" r="8"/>
+      <circle class="dot" cx="250" cy="70" r="8"/>
+      <circle class="dot" cx="315" cy="70" r="8"/>
+      <circle class="dot" cx="380" cy="70" r="8"/>
+      <circle class="dot" cx="445" cy="70" r="8"/>
+      <circle class="dot" cx="510" cy="70" r="8"/>
+      <circle class="dot" cx="575" cy="70" r="8"/>
+      <circle class="dot" cx="640" cy="70" r="8"/>
+      <circle class="dot" cx="705" cy="70" r="8"/>
+      <circle class="dot" cx="770" cy="70" r="8"/>
+      <circle class="dot" cx="835" cy="70" r="8"/>
+      <circle class="dot" cx="900" cy="70" r="8"/>
+      <circle class="dot" cx="965" cy="70" r="8"/>
+      <circle class="dot" cx="1030" cy="70" r="8"/>
+      <circle class="dot" cx="1095" cy="70" r="8"/>
+    </g>
+  </g>
+
+  <!-- PAC-MAN -->
+  <g id="pacman" transform="translate(80,70)">
+    <!-- body -->
+    <circle r="32" fill="url(#yo)"/>
+    <!-- mouth (animated open/close) -->
+    <path id="mouth" d="M0,0 L32,0 A32,32 0 1 1 0,0 Z" fill="#0D1117">
+      <animate attributeName="d" dur="0.35s" repeatCount="indefinite"
+        values="
+          M0,0 L32,0 A32,32 0 1 1 0,0 Z;
+          M0,0 L5,5 A32,32 0 1 1 5,-5 Z;
+          M0,0 L32,0 A32,32 0 1 1 0,0 Z"/>
+    </path>
+    <!-- eye -->
+    <circle cx="8" cy="-12" r="4" fill="#0D1117"/>
+  </g>
+
+  <!-- move Pac-Man across -->
+  <animateTransform xlink:href="#pacman" attributeName="transform" type="translate"
+    values="80,70; 1140,70" dur="8s" repeatCount="indefinite"/>
+
+  <!-- eat pellets (fade when Pac-Man passes) -->
+  <animate attributeName="opacity" xlink:href="#pellets"
+    values="1;1;0.15;1" keyTimes="0;0.35;0.36;1" dur="8s" repeatCount="indefinite"/>
+</svg>
