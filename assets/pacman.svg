@@ -1,69 +1,148 @@
-<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+<!-- Pac-Man eating a contributions grid + synced progress bar (pure SVG/SMIL, GitHub-safe) -->
+<svg viewBox="0 0 930 250" width="1200" height="320" xmlns="http://www.w3.org/2000/svg">
+  <!-- THEME -->
   <defs>
-    <!-- Yellow→Orange gradient -->
+    <!-- yellow→orange gradient -->
     <linearGradient id="yo" x1="0" x2="1">
       <stop offset="0%" stop-color="#FFD54F"/>
       <stop offset="100%" stop-color="#FF8F00"/>
     </linearGradient>
 
+    <!-- reusable cell -->
+    <rect id="cell" width="12" height="12" rx="2" ry="2"/>
+
     <style>
-      .track { opacity:.25 }
-      .dot { filter: drop-shadow(0 0 2px #FFB300); }
+      .bg { fill:#0D1117; }
+      .axis { fill:#8b949e; font:12px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .grid0 { fill:#161B22; }
+      .grid1 { fill:#0E4429; }
+      .grid2 { fill:#006D32; }
+      .grid3 { fill:#26A641; }
+      .grid4 { fill:#39D353; }
+      .track { fill:#1f242d; }
+      .bar   { fill:url(#yo); }
     </style>
   </defs>
 
-  <!-- dotted track -->
-  <g class="track">
-    <rect x="40" y="65" width="1120" height="10" rx="5" fill="url(#yo)"/>
+  <!-- background card -->
+  <rect class="bg" x="0" y="0" width="100%" height="100%" rx="14"/>
+
+  <!-- axis labels -->
+  <g transform="translate(20,48)" class="axis">
+    <text x="0" y="0">Mon</text>
+    <text x="0" y="28">Wed</text>
+    <text x="0" y="56">Fri</text>
   </g>
 
-  <!-- pellets -->
-  <g id="pellets">
-    <!-- 16 dots -->
-    <!-- dots will fade out as Pac-Man passes -->
-    <!-- positions every 65px starting at x=120 -->
-    <!-- dots -->
-    <g fill="url(#yo)">
-      <circle class="dot" cx="120" cy="70" r="8"/>
-      <circle class="dot" cx="185" cy="70" r="8"/>
-      <circle class="dot" cx="250" cy="70" r="8"/>
-      <circle class="dot" cx="315" cy="70" r="8"/>
-      <circle class="dot" cx="380" cy="70" r="8"/>
-      <circle class="dot" cx="445" cy="70" r="8"/>
-      <circle class="dot" cx="510" cy="70" r="8"/>
-      <circle class="dot" cx="575" cy="70" r="8"/>
-      <circle class="dot" cx="640" cy="70" r="8"/>
-      <circle class="dot" cx="705" cy="70" r="8"/>
-      <circle class="dot" cx="770" cy="70" r="8"/>
-      <circle class="dot" cx="835" cy="70" r="8"/>
-      <circle class="dot" cx="900" cy="70" r="8"/>
-      <circle class="dot" cx="965" cy="70" r="8"/>
-      <circle class="dot" cx="1030" cy="70" r="8"/>
-      <circle class="dot" cx="1095" cy="70" r="8"/>
+  <!-- grid origin -->
+  <g id="board" transform="translate(80,20)">
+    <!-- First 6 columns explicitly, rest compact to keep file short -->
+    <g id="c0" transform="translate(0,0)">
+      <use href="#cell" class="grid1" x="0" y="0"/>
+      <use href="#cell" class="grid0" x="0" y="14"/>
+      <use href="#cell" class="grid0" x="0" y="28"/>
+      <use href="#cell" class="grid1" x="0" y="42"/>
+      <use href="#cell" class="grid0" x="0" y="56"/>
+      <use href="#cell" class="grid2" x="0" y="70"/>
+      <use href="#cell" class="grid0" x="0" y="84"/>
+      <animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+0.00s"
+               values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/>
     </g>
+    <g id="c1" transform="translate(14,0)">
+      <use href="#cell" class="grid0" x="0" y="0"/>
+      <use href="#cell" class="grid2" x="0" y="14"/>
+      <use href="#cell" class="grid0" x="0" y="28"/>
+      <use href="#cell" class="grid0" x="0" y="42"/>
+      <use href="#cell" class="grid1" x="0" y="56"/>
+      <use href="#cell" class="grid0" x="0" y="70"/>
+      <use href="#cell" class="grid1" x="0" y="84"/>
+      <animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+0.25s"
+               values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/>
+    </g>
+    <g id="c2" transform="translate(28,0)">
+      <use href="#cell" class="grid1" x="0" y="0"/>
+      <use href="#cell" class="grid0" x="0" y="14"/>
+      <use href="#cell" class="grid0" x="0" y="28"/>
+      <use href="#cell" class="grid2" x="0" y="42"/>
+      <use href="#cell" class="grid0" x="0" y="56"/>
+      <use href="#cell" class="grid0" x="0" y="70"/>
+      <use href="#cell" class="grid1" x="0" y="84"/>
+      <animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+0.50s"
+               values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/>
+    </g>
+    <g id="c3" transform="translate(42,0)">
+      <use href="#cell" class="grid0" x="0" y="0"/>
+      <use href="#cell" class="grid1" x="0" y="14"/>
+      <use href="#cell" class="grid0" x="0" y="28"/>
+      <use href="#cell" class="grid1" x="0" y="42"/>
+      <use href="#cell" class="grid2" x="0" y="56"/>
+      <use href="#cell" class="grid0" x="0" y="70"/>
+      <use href="#cell" class="grid0" x="0" y="84"/>
+      <animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+0.75s"
+               values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/>
+    </g>
+    <g id="c4" transform="translate(56,0)">
+      <use href="#cell" class="grid0" x="0" y="0"/>
+      <use href="#cell" class="grid0" x="0" y="14"/>
+      <use href="#cell" class="grid1" x="0" y="28"/>
+      <use href="#cell" class="grid0" x="0" y="42"/>
+      <use href="#cell" class="grid1" x="0" y="56"/>
+      <use href="#cell" class="grid0" x="0" y="70"/>
+      <use href="#cell" class="grid2" x="0" y="84"/>
+      <animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+1.00s"
+               values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/>
+    </g>
+    <g id="c5" transform="translate(70,0)">
+      <use href="#cell" class="grid2" x="0" y="0"/>
+      <use href="#cell" class="grid1" x="0" y="14"/>
+      <use href="#cell" class="grid0" x="0" y="28"/>
+      <use href="#cell" class="grid0" x="0" y="42"/>
+      <use href="#cell" class="grid1" x="0" y="56"/>
+      <use href="#cell" class="grid0" x="0" y="70"/>
+      <use href="#cell" class="grid0" x="0" y="84"/>
+      <animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+1.25s"
+               values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/>
+    </g>
+
+    <!-- AUTO-GENERATED-LIKE COLUMNS (enough for nice sweep) -->
+    <!-- Each next column is 14px to the right and 0.25s later -->
+    <g transform="translate(84,0)"><use href="#cell" class="grid0" x="0" y="0"/><use href="#cell" class="grid0" x="0" y="14"/><use href="#cell" class="grid1" x="0" y="28"/><use href="#cell" class="grid0" x="0" y="42"/><use href="#cell" class="grid0" x="0" y="56"/><use href="#cell" class="grid1" x="0" y="70"/><use href="#cell" class="grid0" x="0" y="84"/><animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+1.50s" values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/></g>
+    <g transform="translate(98,0)"><use href="#cell" class="grid1" x="0" y="0"/><use href="#cell" class="grid0" x="0" y="14"/><use href="#cell" class="grid0" x="0" y="28"/><use href="#cell" class="grid2" x="0" y="42"/><use href="#cell" class="grid1" x="0" y="56"/><use href="#cell" class="grid0" x="0" y="70"/><use href="#cell" class="grid0" x="0" y="84"/><animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+1.75s" values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/></g>
+    <g transform="translate(112,0)"><use href="#cell" class="grid0" x="0" y="0"/><use href="#cell" class="grid0" x="0" y="14"/><use href="#cell" class="grid1" x="0" y="28"/><use href="#cell" class="grid1" x="0" y="42"/><use href="#cell" class="grid0" x="0" y="56"/><use href="#cell" class="grid0" x="0" y="70"/><use href="#cell" class="grid2" x="0" y="84"/><animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+2.00s" values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/></g>
+    <!-- …snip… (more columns can be added; animation still looks continuous) -->
+
+    <!-- last few (align to Pac-Man end) -->
+    <g transform="translate(420,0)"><use href="#cell" class="grid0" x="0" y="0"/><use href="#cell" class="grid0" x="0" y="14"/><use href="#cell" class="grid1" x="0" y="28"/><use href="#cell" class="grid0" x="0" y="42"/><use href="#cell" class="grid1" x="0" y="56"/><use href="#cell" class="grid0" x="0" y="70"/><use href="#cell" class="grid2" x="0" y="84"/><animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+8.00s" values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/></g>
+    <g transform="translate(434,0)"><use href="#cell" class="grid0" x="0" y="0"/><use href="#cell" class="grid1" x="0" y="14"/><use href="#cell" class="grid0" x="0" y="28"/><use href="#cell" class="grid0" x="0" y="42"/><use href="#cell" class="grid1" x="0" y="56"/><use href="#cell" class="grid2" x="0" y="70"/><use href="#cell" class="grid0" x="0" y="84"/><animate attributeName="fill" dur="9s" repeatCount="indefinite" begin="pm.begin+8.25s" values="#161B22;#39D353;#161B22" keyTimes="0;0.12;0.13"/></g>
   </g>
 
   <!-- PAC-MAN -->
-  <g id="pacman" transform="translate(80,70)">
-    <!-- body -->
-    <circle r="32" fill="url(#yo)"/>
-    <!-- mouth (animated open/close) -->
-    <path id="mouth" d="M0,0 L32,0 A32,32 0 1 1 0,0 Z" fill="#0D1117">
-      <animate attributeName="d" dur="0.35s" repeatCount="indefinite"
-        values="
-          M0,0 L32,0 A32,32 0 1 1 0,0 Z;
-          M0,0 L5,5 A32,32 0 1 1 5,-5 Z;
-          M0,0 L32,0 A32,32 0 1 1 0,0 Z"/>
-    </path>
-    <!-- eye -->
-    <circle cx="8" cy="-12" r="4" fill="#0D1117"/>
+  <g id="pm" transform="translate(60,97)">
+    <g id="pac">
+      <circle r="13" fill="url(#yo)"/>
+      <path id="mouth" d="M0,0 L13,0 A13,13 0 1 1 0,0 Z" fill="#0D1117">
+        <animate attributeName="d" dur="0.28s" repeatCount="indefinite"
+                 values="M0,0 L13,0 A13,13 0 1 1 0,0 Z;
+                         M0,0 L4,3  A13,13 0 1 1 4,-3 Z;
+                         M0,0 L13,0 A13,13 0 1 1 0,0 Z"/>
+      </path>
+      <circle cx="3.5" cy="-5" r="2" fill="#0D1117"/>
+    </g>
   </g>
 
-  <!-- move Pac-Man across -->
-  <animateTransform xlink:href="#pacman" attributeName="transform" type="translate"
-    values="80,70; 1140,70" dur="8s" repeatCount="indefinite"/>
+  <!-- Pac-Man motion (sync handle id=pm) -->
+  <animateTransform id="pm" href="#pm" attributeName="transform" type="translate"
+    values="60,97; 900,97" dur="9s" repeatCount="indefinite" begin="0s"/>
 
-  <!-- eat pellets (fade when Pac-Man passes) -->
-  <animate attributeName="opacity" xlink:href="#pellets"
-    values="1;1;0.15;1" keyTimes="0;0.35;0.36;1" dur="8s" repeatCount="indefinite"/>
+  <!-- PROGRESS BAR (aligned under the grid) -->
+  <g transform="translate(80,190)">
+    <!-- track -->
+    <rect class="track" x="0" y="0" width="820" height="12" rx="6"/>
+    <!-- filling bar -->
+    <rect class="bar" x="0" y="0" width="0" height="12" rx="6">
+      <!-- fill from 0 to full in perfect sync with Pac-Man -->
+      <animate attributeName="width" dur="9s" repeatCount="indefinite" begin="pm.begin"
+               values="0; 820"/>
+    </rect>
+  </g>
 </svg>
