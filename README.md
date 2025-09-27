@@ -30,7 +30,6 @@ C • C++ • Python • Java • SQL • Machine Learning • HTML
 
 ---
 
-### 🟡 Pac-Man (animated)
 <p align="center">
   <img src="assets/pacman.svg" width="800" alt="Pac-Man animation" />
 </p>
