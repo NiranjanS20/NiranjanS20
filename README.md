@@ -1,6 +1,6 @@
 <!-- Banner (top) -->
 <p align="center">
-  <img src="assets/niranjan-banner.png" alt="NIRANJAN banner" width="95%">
+  <img src="assets/niranjan-banner-1.png" alt="NIRANJAN banner" width="95%">
 </p>
 
 <h1 align="center">Hiie Niranjan here 👋</h1>
@@ -55,5 +55,5 @@ C • C++ • Python • Java • SQL • Machine Learning • HTML
 
 <!-- Banner (bottom) -->
 <p align="center">
-  <img src="assets/niranjan-banner.png" alt="NIRANJAN banner bottom" width="95%">
+  <img src="assets/niranjan-banner-2.png" alt="NIRANJAN banner bottom" width="95%">
 </p>
