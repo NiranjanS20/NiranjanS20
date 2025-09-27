@@ -31,7 +31,7 @@ C • C++ • Python • Java • SQL • Machine Learning • HTML
 ---
 
 <p align="center">
-  <img src="assets/pacman.svg" width="800" alt="Pac-Man animation" />
+  <img src="assets/pacman.svg" width="800" alt="random animation" />
 </p>
 
 ---
