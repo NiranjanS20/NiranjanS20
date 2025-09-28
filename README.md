@@ -164,10 +164,7 @@ const niranjan = {
 
 ---
 
-## 🎮 **Pac-Man Contribution Eater**
-
 <div align="center">
-  <h3>🟡 Watch Pac-Man eat my contributions!</h3>
   <img src="assets/pacman-contrib.svg" width="900" alt="Animated Pac-Man eating GitHub contributions" />
   <br>
   <sub>🎯 <i>Updates automatically every day with real contribution data</i></sub>
