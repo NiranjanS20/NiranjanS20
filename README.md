@@ -203,8 +203,6 @@ const niranjan = {
 
 ---
 
-## 🌟 **Random Dev Quote**
-
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote_color=FFD54F&author_color=FFC107&bg_color=0D1117&border_color=FFD54F" alt="Random Dev Quote" />
 </div>
