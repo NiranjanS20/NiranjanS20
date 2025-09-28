@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="940" height="260" viewBox="0 0 940 260" 
+     xmlns="http://www.w3.org/2000/svg" role="img" 
+     aria-label="Animated Pac-Man eating through GitHub contribution graph with synchronized progress bar">
+  
+  <title>Pac-Man Contribution Eater Animation</title>
+  
+  <defs>
+    <!-- Pac-Man gradient -->
+    <radialGradient id="pacmanGradient" cx="0.3" cy="0.3">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </radialGradient>
+    
+    <!-- Progress bar gradient -->
+    <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0D1117"/>
+  
+  <!-- Day labels -->
+  <text x="20" y="54" fill="#7d8590" font-family="ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace" font-size="12">Mon</text>
+  <text x="20" y="82" fill="#7d8590" font-family="ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace" font-size="12">Wed</text>
+  <text x="20" y="110" fill="#7d8590" font-family="ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace" font-size="12">Fri</text>
+  
+  <!-- Contribution grid -->
+  <g id="contributionGrid">
+    <!-- Week 1 -->
+    <rect x="50" y="40" width="12" height="12" rx="2" fill="#161B22">
+      <animate attributeName="fill" values="#161B22;#39D353;#161B22" dur="0.5s" begin="pacman.begin+0.00s"/>
+    </rect>
+    <rect x="50" y="54" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+0.00s"/>
+    </rect>
+    <rect x="50" y="68" width="12" height="12" rx="2" fill="#006D32">
+      <animate attributeName="fill" values="#006D32;#39D353;#006D32" dur="0.5s" begin="pacman.begin+0.00s"/>
+    </rect>
+    <rect x="50" y="82" width="12" height="12" rx="2" fill="#26A641">
+      <animate attributeName="fill" values="#26A641;#39D353;#26A641" dur="0.5s" begin="pacman.begin+0.00s"/>
+    </rect>
+    <rect x="50" y="96" width="12" height="12" rx="2" fill="#39D353">
+      <animate attributeName="fill" values="#39D353;#39D353;#39D353" dur="0.5s" begin="pacman.begin+0.00s"/>
+    </rect>
+    <rect x="50" y="110" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+0.00s"/>
+    </rect>
+    <rect x="50" y="124" width="12" height="12" rx="2" fill="#161B22">
+      <animate attributeName="fill" values="#161B22;#39D353;#161B22" dur="0.5s" begin="pacman.begin+0.00s"/>
+    </rect>
+    
+    <!-- Week 2 -->
+    <rect x="64" y="40" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+0.20s"/>
+    </rect>
+    <rect x="64" y="54" width="12" height="12" rx="2" fill="#006D32">
+      <animate attributeName="fill" values="#006D32;#39D353;#006D32" dur="0.5s" begin="pacman.begin+0.20s"/>
+    </rect>
+    <rect x="64" y="68" width="12" height="12" rx="2" fill="#39D353">
+      <animate attributeName="fill" values="#39D353;#39D353;#39D353" dur="0.5s" begin="pacman.begin+0.20s"/>
+    </rect>
+    <rect x="64" y="82" width="12" height="12" rx="2" fill="#26A641">
+      <animate attributeName="fill" values="#26A641;#39D353;#26A641" dur="0.5s" begin="pacman.begin+0.20s"/>
+    </rect>
+    <rect x="64" y="96" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+0.20s"/>
+    </rect>
+    <rect x="64" y="110" width="12" height="12" rx="2" fill="#161B22">
+      <animate attributeName="fill" values="#161B22;#39D353;#161B22" dur="0.5s" begin="pacman.begin+0.20s"/>
+    </rect>
+    <rect x="64" y="124" width="12" height="12" rx="2" fill="#006D32">
+      <animate attributeName="fill" values="#006D32;#39D353;#006D32" dur="0.5s" begin="pacman.begin+0.20s"/>
+    </rect>
+    
+    <!-- Additional weeks would continue here in real implementation... -->
+    <!-- For demo, showing pattern across ~50 weeks -->
+    <rect x="78" y="40" width="12" height="12" rx="2" fill="#26A641">
+      <animate attributeName="fill" values="#26A641;#39D353;#26A641" dur="0.5s" begin="pacman.begin+0.39s"/>
+    </rect>
+    <rect x="78" y="54" width="12" height="12" rx="2" fill="#161B22">
+      <animate attributeName="fill" values="#161B22;#39D353;#161B22" dur="0.5s" begin="pacman.begin+0.39s"/>
+    </rect>
+    <rect x="78" y="68" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+0.39s"/>
+    </rect>
+    <rect x="78" y="82" width="12" height="12" rx="2" fill="#39D353">
+      <animate attributeName="fill" values="#39D353;#39D353;#39D353" dur="0.5s" begin="pacman.begin+0.39s"/>
+    </rect>
+    <rect x="78" y="96" width="12" height="12" rx="2" fill="#006D32">
+      <animate attributeName="fill" values="#006D32;#39D353;#006D32" dur="0.5s" begin="pacman.begin+0.39s"/>
+    </rect>
+    <rect x="78" y="110" width="12" height="12" rx="2" fill="#26A641">
+      <animate attributeName="fill" values="#26A641;#39D353;#26A641" dur="0.5s" begin="pacman.begin+0.39s"/>
+    </rect>
+    <rect x="78" y="124" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+0.39s"/>
+    </rect>
+    
+    <!-- Continue pattern to show full year... -->
+    <rect x="750" y="40" width="12" height="12" rx="2" fill="#161B22">
+      <animate attributeName="fill" values="#161B22;#39D353;#161B22" dur="0.5s" begin="pacman.begin+9.80s"/>
+    </rect>
+    <rect x="750" y="54" width="12" height="12" rx="2" fill="#39D353">
+      <animate attributeName="fill" values="#39D353;#39D353;#39D353" dur="0.5s" begin="pacman.begin+9.80s"/>
+    </rect>
+    <rect x="750" y="68" width="12" height="12" rx="2" fill="#26A641">
+      <animate attributeName="fill" values="#26A641;#39D353;#26A641" dur="0.5s" begin="pacman.begin+9.80s"/>
+    </rect>
+    <rect x="750" y="82" width="12" height="12" rx="2" fill="#006D32">
+      <animate attributeName="fill" values="#006D32;#39D353;#006D32" dur="0.5s" begin="pacman.begin+9.80s"/>
+    </rect>
+    <rect x="750" y="96" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+9.80s"/>
+    </rect>
+    <rect x="750" y="110" width="12" height="12" rx="2" fill="#161B22">
+      <animate attributeName="fill" values="#161B22;#39D353;#161B22" dur="0.5s" begin="pacman.begin+9.80s"/>
+    </rect>
+    <rect x="750" y="124" width="12" height="12" rx="2" fill="#26A641">
+      <animate attributeName="fill" values="#26A641;#39D353;#26A641" dur="0.5s" begin="pacman.begin+9.80s"/>
+    </rect>
+    
+    <!-- Final week -->
+    <rect x="764" y="40" width="12" height="12" rx="2" fill="#39D353">
+      <animate attributeName="fill" values="#39D353;#39D353;#39D353" dur="0.5s" begin="pacman.begin+10.00s"/>
+    </rect>
+    <rect x="764" y="54" width="12" height="12" rx="2" fill="#26A641">
+      <animate attributeName="fill" values="#26A641;#39D353;#26A641" dur="0.5s" begin="pacman.begin+10.00s"/>
+    </rect>
+    <rect x="764" y="68" width="12" height="12" rx="2" fill="#006D32">
+      <animate attributeName="fill" values="#006D32;#39D353;#006D32" dur="0.5s" begin="pacman.begin+10.00s"/>
+    </rect>
+    <rect x="764" y="82" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+10.00s"/>
+    </rect>
+    <rect x="764" y="96" width="12" height="12" rx="2" fill="#161B22">
+      <animate attributeName="fill" values="#161B22;#39D353;#161B22" dur="0.5s" begin="pacman.begin+10.00s"/>
+    </rect>
+    <rect x="764" y="110" width="12" height="12" rx="2" fill="#0E4429">
+      <animate attributeName="fill" values="#0E4429;#39D353;#0E4429" dur="0.5s" begin="pacman.begin+10.00s"/>
+    </rect>
+    <rect x="764" y="124" width="12" height="12" rx="2" fill="#39D353">
+      <animate attributeName="fill" values="#39D353;#39D353;#39D353" dur="0.5s" begin="pacman.begin+10.00s"/>
+    </rect>
+  </g>
+  
+  <!-- Pac-Man -->
+  <g id="pacman">
+    <!-- Pac-Man body (circle with mouth cutout) -->
+    <g>
+      <circle cx="20" cy="92" r="15" fill="url(#pacmanGradient)"/>
+      <!-- Animated mouth (triangle cutout) -->
+      <polygon points="20,92 40,84 40,100" 
+               fill="#0D1117">
+        <animateTransform attributeName="transform" 
+                         type="rotate" 
+                         values="0 20 92;25 20 92;0 20 92;-25 20 92;0 20 92" 
+                         dur="0.4s" 
+                         repeatCount="indefinite"/>
+      </polygon>
+      <!-- Eye -->
+      <circle cx="17" cy="86" r="2" fill="#000"/>
+      
+      <!-- Movement animation -->
+      <animateTransform attributeName="transform" 
+                       type="translate" 
+                       values="0,0;784,0" 
+                       dur="10s" 
+                       repeatCount="indefinite"
+                       id="pacmanMove"/>
+    </g>
+  </g>
+  
+  <!-- Progress bar -->
+  <g id="progressBar" transform="translate(50, 168)">
+    <!-- Progress track -->
+    <rect x="0" y="0" width="726" height="8" rx="4" fill="#1f242d"/>
+    <!-- Progress fill -->
+    <rect x="0" y="0" width="0" height="8" rx="4" fill="url(#progressGradient)">
+      <animate attributeName="width" 
+               values="0;726"
