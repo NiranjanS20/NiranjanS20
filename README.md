@@ -197,9 +197,6 @@ const niranjan = {
   <img src="https://github-profile-trophy.vercel.app/?username=niranjans20&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=2&column=4&title_color=FFD54F&text_color=ffffff&bg_color=0D1117&border_color=FFD54F" alt="GitHub Trophies" />
 </div>
 
----
-
-## 🌟 **Random Dev Quote**
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote_color=FFD54F&author_color=FFC107&bg_color=0D1117&border_color=FFD54F" alt="Random Dev Quote" />
