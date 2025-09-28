@@ -168,14 +168,7 @@ const niranjan = {
 ## 🎮 **Live Contribution Animations**
 
 <div align="center">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/niranjans20/niranjans20/blob/output/pacman-contribution-graph-dark.svg?raw=1" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/niranjans20/niranjans20/blob/output/pacman-contribution-graph.svg?raw=1" />
-  <img alt="Pac-Man contribution graph" src="https://github.com/niranjans20/niranjans20/blob/output/pacman-contribution-graph.svg?raw=1" width="900" />
-</picture>
-<br>
-<sub>🎯 <i>Pac-Man eats my contributions — updated daily!</i></sub>
-
+  <img src="assets/pacman.svg" alt="Pac-Man contribution graph" width="880" />
 </div>
 
 ---
