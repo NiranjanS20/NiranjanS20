@@ -70,6 +70,7 @@ const niranjan = {
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
 ### **Databases & ML**
@@ -115,7 +116,7 @@ const niranjan = {
 </td>
 <td width="50%">
 
-### 🏛️ **Echoes of Heritage**
+### 🛍️ **Echoes of Heritage**
 **Desktop app preserving global cultures**
 
 🔹 **Tech:** Python, Tkinter, JSON  
@@ -145,15 +146,15 @@ const niranjan = {
 </td>
 <td width="50%">
 
-### 🎮 **GitHub Pac-Man**
-**Animated contribution eater**
+### 🎮 **GitHub Animations**
+**Real-time contribution visualizers**
 
-🔹 **Tech:** JavaScript, SVG, SMIL  
-🔹 **Features:** Real-time data, daily updates  
-🔹 **Highlights:** GitHub Actions automation  
+🔹 **Tech:** JavaScript, SVG, SMIL, GitHub Actions  
+🔹 **Features:** Pac-Man & Snake animations  
+🔹 **Highlights:** Daily auto-updates with real data  
 
 <div align="center">
-  <img src="https://img.shields.io/badge/-Animation-FFC107?style=for-the-badge&logo=github&logoColor=black">
+  <img src="https://img.shields.io/badge/-Live_Animation-FFC107?style=for-the-badge&logo=github&logoColor=black">
 </div>
 
 </td>
@@ -164,10 +165,23 @@ const niranjan = {
 
 ---
 
+## 🎮 **Live Contribution Animations**
+
 <div align="center">
-  <img src="assets/pacman-contrib.svg" width="900" alt="Animated Pac-Man eating GitHub contributions" />
-  <br>
-  <sub>🎯 <i>Updates automatically every day with real contribution data</i></sub>
+
+### 🟡 Pac-Man Eating My Contributions
+<img src="assets/pacman-contrib.svg" width="900" alt="Animated Pac-Man eating GitHub contributions" />
+<br><sub>🎯 <i>Pac-Man chomps through my coding journey</i></sub>
+
+<br><br>
+
+### 🐍 Snake Slithering Through My Code
+<img src="assets/slither-contrib.svg" width="900" alt="Animated Snake eating GitHub contributions" />
+<br><sub>🌟 <i>Snake slithers through my development activity</i></sub>
+
+<br><br>
+<sub>🔄 <i>Both animations update automatically every day with real contribution data via GitHub Actions</i></sub>
+
 </div>
 
 ---
@@ -200,8 +214,30 @@ const niranjan = {
 
 ---
 
+## 💻 **Coding Activity**
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=niranjans20&theme=radical&hide_border=true&background=0D1117&stroke=FFD54F&ring=FFD54F&fire=FF9800&currStreakLabel=FFD54F" alt="Contribution Streak" />
+</div>
+
+---
+
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote_color=FFD54F&author_color=FFC107&bg_color=0D1117&border_color=FFD54F" alt="Random Dev Quote" />
+</div>
+
+---
+
+## 🌟 **GitHub Highlights**
+
+<div align="center">
+
+### 📈 **Contribution Overview**
+<img src="https://activity-graph.herokuapp.com/graph?username=niranjans20&bg_color=0D1117&color=FFD54F&line=FFC107&point=FF9800&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+
+### 🎯 **Quick Stats**
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niranjans20&theme=radical" width="100%" alt="Profile Summary" />
+
 </div>
 
 ---
@@ -221,7 +257,7 @@ const niranjan = {
     <img src="https://img.shields.io/badge/-Visit_My_Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=FF5722" alt="Portfolio">
   </a>
   <br><br>
-  <a href="YOUR_INSTAGRAM_URL_HERE">
+  <a href="https://www.instagram.com/nirxnjxn_03/">
     <img src="https://img.shields.io/badge/-Follow_on_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" alt="Instagram">
   </a>
 </p>
@@ -232,6 +268,12 @@ const niranjan = {
 <p>
   <img src="https://img.shields.io/badge/-Open_for_Opportunities-4CAF50?style=for-the-badge&logo=handshake&logoColor=white" alt="Open for Opportunities">
   <img src="https://img.shields.io/badge/-Available_for_Collaboration-2196F3?style=for-the-badge&logo=github&logoColor=white" alt="Collaboration">
+</p>
+
+### 📍 **Current Status**
+<p>
+  <img src="https://img.shields.io/badge/-Learning_New_Technologies-FF6B6B?style=for-the-badge&logo=brain&logoColor=white" alt="Learning">
+  <img src="https://img.shields.io/badge/-Building_Cool_Projects-4ECDC4?style=for-the-badge&logo=tools&logoColor=white" alt="Building">
 </p>
 
 </div>
@@ -247,6 +289,11 @@ const niranjan = {
 <br><br>
 
 **Thanks for stopping by! Have an amazing day! 🚀**
+
+<br>
+
+### 🎮 **Fun Fact**
+*These animated contribution graphs are generated daily using GitHub Actions and represent my real coding activity!*
 
 </div>
 
