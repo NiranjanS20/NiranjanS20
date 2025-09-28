@@ -19,6 +19,10 @@
   <a href="https://niranjans20.github.io/Student-Portfolio/">
     <img src="https://img.shields.io/badge/-Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=FF5722" alt="Portfolio">
   </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/nirxnjxn_03/">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" alt="Instagram">
+  </a>
 </p>
 
 </div>
@@ -197,6 +201,9 @@ const niranjan = {
   <img src="https://github-profile-trophy.vercel.app/?username=niranjans20&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=2&column=4&title_color=FFD54F&text_color=ffffff&bg_color=0D1117&border_color=FFD54F" alt="GitHub Trophies" />
 </div>
 
+---
+
+## 🌟 **Random Dev Quote**
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote_color=FFD54F&author_color=FFC107&bg_color=0D1117&border_color=FFD54F" alt="Random Dev Quote" />
@@ -217,6 +224,10 @@ const niranjan = {
   <br><br>
   <a href="https://niranjans20.github.io/Student-Portfolio/">
     <img src="https://img.shields.io/badge/-Visit_My_Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=FF5722" alt="Portfolio">
+  </a>
+  <br><br>
+  <a href="YOUR_INSTAGRAM_URL_HERE">
+    <img src="https://img.shields.io/badge/-Follow_on_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" alt="Instagram">
   </a>
 </p>
 
