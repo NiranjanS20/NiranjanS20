@@ -169,7 +169,6 @@ const niranjan = {
 
 <div align="center">
 
-### 🟡 Pac-Man Eating My Contributions
 <img src="assets/pacman-contrib.svg" width="900" alt="Animated Pac-Man eating GitHub contributions" />
 <br><sub>🎯 <i>Pac-Man chomps through my coding journey</i></sub>
 
