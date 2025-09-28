@@ -1,16 +1,17 @@
-name: Generate Pac-Man Contribution Animation
+name: Generate Contribution Animations
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:
   push:
     paths:
       - 'scripts/build_pacman_svg.js'
-      - '.github/workflows/pacman-contrib.yml'
+      - 'scripts/build_slither_svg.js'
+      - '.github/workflows/contrib-animations.yml'
 
 jobs:
-  generate-animation:
+  generate-animations:
     runs-on: ubuntu-latest
     
     permissions:
@@ -34,10 +35,18 @@ jobs:
           cd scripts
           node build_pacman_svg.js
       
+      - name: Generate Slither Snake SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd scripts
+          node build_slither_svg.js
+      
       - name: Check for changes
         id: git-check
         run: |
-          if git diff --exit-code assets/pacman-contrib.svg >/dev/null 2>&1; then
+          git add -N assets/
+          if git diff --exit-code assets/ >/dev/null 2>&1; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -47,15 +56,15 @@ jobs:
         if: steps.git-check.outputs.changed == 'true'
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "Pac-Man Bot"
-          git add assets/pacman-contrib.svg
-          git commit -m "Update Pac-Man contribution animation [$(date +'%Y-%m-%d %H:%M UTC')]"
+          git config --local user.name "Contribution Bot"
+          git add assets/pacman-contrib.svg assets/slither-contrib.svg
+          git commit -m "🎮 Update contribution animations [$(date +'%Y-%m-%d %H:%M UTC')]"
           git push
       
       - name: Output result
         run: |
           if [ "${{ steps.git-check.outputs.changed }}" = "true" ]; then
-            echo "Pac-Man animation updated with latest contributions!"
+            echo "🎯 Contribution animations updated with latest data!"
           else
-            echo "No changes in contributions, animation unchanged."
+            echo "✅ No changes in contributions, animations unchanged."
           fi
