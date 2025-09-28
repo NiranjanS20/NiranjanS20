@@ -1,6 +1,6 @@
 <!-- Banner (top) -->
 <div align="center">
-  <img src="assets/niranjan-banner.png" alt="NIRANJAN banner" width="100%" style="border-radius: 10px;">
+  <img src="assets/niranjan-banner-5.png" alt="NIRANJAN banner" width="100%" style="border-radius: 10px;">
 </div>
 
 <div align="center">
@@ -257,5 +257,5 @@ const niranjan = {
 
 <!-- Banner (bottom) -->
 <div align="center">
-  <img src="assets/niranjan-banner.png" alt="NIRANJAN banner bottom" width="100%" style="border-radius: 10px;">
+  <img src="assets/niranjan-banner-6.png" alt="NIRANJAN banner bottom" width="100%" style="border-radius: 10px;">
 </div>
