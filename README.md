@@ -168,19 +168,13 @@ const niranjan = {
 ## 🎮 **Live Contribution Animations**
 
 <div align="center">
-
-<img src="assets/pacman-contrib.svg" width="900" alt="Animated Pac-Man eating GitHub contributions" />
-<br><sub>🎯 <i>Pac-Man chomps through my coding journey</i></sub>
-
-<br><br>
-
-### 🐍 Snake Slithering Through My Code
-<img src="assets/slither-contrib.svg" width="900" alt="Animated Snake eating GitHub contributions" />
-<br><sub>🌟 <i>Snake slithers through my development activity</i></sub>
-
-<br><br>
-<sub>🔄 <i>Both animations update automatically every day with real contribution data via GitHub Actions</i></sub>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niranjans20/niranjans20/output/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/niranjans20/niranjans20/output/pacman-contribution-graph.svg" />
+    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/niranjans20/niranjans20/output/pacman-contribution-graph.svg" width="900" />
+  </picture>
+  <br>
+  <sub>🎯 <i>Pac-Man eats my contributions — updated daily!</i></sub>
 </div>
 
 ---
