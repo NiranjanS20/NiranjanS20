@@ -150,13 +150,13 @@ const niranjan = {
 
 Retro-style pixel game promoting traffic safety awareness
 
-🔹 **Tech:** HTML5 Canvas, CSS3, Vanilla JavaScript, Web Audio API
+🔹 **Tech:** HTML5 Canvas, CSS3, Vanilla JavaScript
 🔹 **Features:** Dynamic traffic simulation, swipe controls, real Mumbai safety facts
-🔹 **Highlights:** Fully mobile-compatible, educational gameplay, smooth 60 FPS performance
+🔹 **Highlights:** Fully mobile-compatible, educational gameplay
 
 <div align="center">
-  <img src="https://crossing-project-game.vercel.app/&logo=github&logoColor=black">
-</div>
+  <img src="[![Project badge](https://img.shields.io/badge/Crosswalk-Dash%20Plus-blue)](https://crossing-project-game.vercel.app/)&logo=github&logoColor=black">
+</div> 
 
 </td>
 </tr>
