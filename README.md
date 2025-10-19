@@ -146,15 +146,16 @@ const niranjan = {
 </td>
 <td width="50%">
 
-### 🎮 **GitHub Animations**
-**Real-time contribution visualizers**
+### 🎮 Crosswalk Dash Plus – Mumbai Traffic Challenge
 
-🔹 **Tech:** JavaScript, SVG, SMIL, GitHub Actions  
-🔹 **Features:** Pac-Man & Snake animations  
-🔹 **Highlights:** Daily auto-updates with real data  
+Retro-style pixel game promoting traffic safety awareness
+
+🔹 **Tech:** HTML5 Canvas, CSS3, Vanilla JavaScript, Web Audio API
+🔹 **Features:** Dynamic traffic simulation, swipe controls, real Mumbai safety facts
+🔹 **Highlights:** Fully mobile-compatible, educational gameplay, smooth 60 FPS performance
 
 <div align="center">
-  <img src="https://img.shields.io/badge/-Live_Animation-FFC107?style=for-the-badge&logo=github&logoColor=black">
+  <img src="https://crossing-project-game.vercel.app/&logo=github&logoColor=black">
 </div>
 
 </td>
