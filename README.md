@@ -146,17 +146,13 @@ const niranjan = {
 </td>
 <td width="50%">
 
-### 🎮 Crosswalk Dash Plus – Mumbai Traffic Challenge
+### 🎮 [Crosswalk Dash Plus – Mumbai Traffic Challenge](https://crossing-project-game.vercel.app/)
+Retro-style pixel game promoting traffic safety awareness  
+🔹 **Tech:** HTML5 Canvas, CSS3, Vanilla JavaScript  
+🔹 **Features:** Dynamic traffic simulation, swipe controls, real Mumbai safety facts  
+🔹 **Highlights:** Fully mobile-compatible, educational gameplay  
+[![Project badge](https://img.shields.io/badge/-Security_Tool-235722?style=for-the-badge)](https://crossing-project-game.vercel.app/)
 
-Retro-style pixel game promoting traffic safety awareness
-
-🔹 **Tech:** HTML5 Canvas, CSS3, Vanilla JavaScript
-🔹 **Features:** Dynamic traffic simulation, swipe controls, real Mumbai safety facts
-🔹 **Highlights:** Fully mobile-compatible, educational gameplay
-
-<div align="center">
-  <img src="[![Project badge](https://img.shields.io/badge/Crosswalk-Dash%20Plus-blue)](https://crossing-project-game.vercel.app/)&logo=github&logoColor=black">
-</div> 
 
 </td>
 </tr>
