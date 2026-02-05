@@ -174,9 +174,9 @@ Retro-style pixel game promoting traffic safety awareness
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=niranjans20&show_icons=true&theme=radical&title_color=FFD54F&text_color=ffffff&icon_color=FFC107&bg_color=0D1117&border_color=FFD54F&hide_border=false&border_radius=10" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-stats-alpha-nine-39.vercel.app/api?username=niranjans20&show_icons=true&theme=radical&title_color=FFD54F&text_color=ffffff&icon_color=FFC107&bg_color=0D1117&border_color=FFD54F&hide_border=false&border_radius=10" alt="GitHub Stats" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=niranjans20&layout=compact&theme=radical&title_color=FFD54F&text_color=ffffff&bg_color=0D1117&border_color=FFD54F&hide_border=false&border_radius=10" alt="Top Languages" />
+<img width="49%" src="https://github-readme-stats-alpha-nine-39.vercel.app/api/top-langs/?username=niranjans20&layout=compact&theme=radical&title_color=FFD54F&text_color=ffffff&bg_color=0D1117&border_color=FFD54F&hide_border=false&border_radius=10" alt="Top Languages" />
 
 <br><br>
 
