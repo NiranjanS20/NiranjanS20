@@ -116,15 +116,17 @@ const niranjan = {
 </td>
 <td width="50%">
 
-### 🛍️ **Echoes of Heritage**
-**Desktop app preserving global cultures**
+### 🍽️ **Annapurna AI**
+**AI-powered smart food management & redistribution platform**
 
-🔹 **Tech:** Python, Tkinter, JSON  
-🔹 **Features:** Cultural data management  
-🔹 **Highlights:** Simple storage, intuitive UI  
+🔹 **Tech:** React, Firebase, AI APIs, Vercel  
+🔹 **Features:** Smart surplus food tracking, NGO coordination, real-time insights  
+🔹 **Highlights:** Social impact driven, scalable architecture, modern UI  
 
 <div align="center">
-  <img src="https://img.shields.io/badge/-Desktop_App-2196F3?style=for-the-badge&logo=python&logoColor=white">
+  <a href="https://annapurna-ai-nine.vercel.app/">
+    <img src="https://img.shields.io/badge/-Live_Demo-4CAF50?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
 </div>
 
 </td>
@@ -146,13 +148,18 @@ const niranjan = {
 </td>
 <td width="50%">
 
-### 🎮 [Crosswalk Dash Plus – Mumbai Traffic Challenge](https://crossing-project-game.vercel.app/)
-Retro-style pixel game promoting traffic safety awareness  
+### 🎮 **Crosswalk Dash Plus – Mumbai Traffic Challenge**
+**Retro-style pixel game promoting traffic safety awareness**
+
 🔹 **Tech:** HTML5 Canvas, CSS3, Vanilla JavaScript  
 🔹 **Features:** Dynamic traffic simulation, swipe controls, real Mumbai safety facts  
 🔹 **Highlights:** Fully mobile-compatible, educational gameplay  
-[![Project badge](https://img.shields.io/badge/-Security_Tool-235722?style=for-the-badge)](https://crossing-project-game.vercel.app/)
 
+<div align="center">
+  <a href="https://crossing-project-game.vercel.app/">
+    <img src="https://img.shields.io/badge/-Play_Game-FF5722?style=for-the-badge&logo=gamepad&logoColor=white">
+  </a>
+</div>
 
 </td>
 </tr>
