@@ -93,11 +93,6 @@ const niranjan = {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-alpha-nine-39.vercel.app/api?username=niranjans20&show_icons=true&theme=radical&title_color=FFD54F&text_color=ffffff&icon_color=FFC107&bg_color=0D1117&border_color=FFD54F&hide_border=false&border_radius=10&count_private=true" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-stats-alpha-nine-39.vercel.app/api/top-langs/?username=niranjans20&layout=compact&theme=radical&title_color=FFD54F&text_color=ffffff&bg_color=0D1117&border_color=FFD54F&hide_border=false&border_radius=10" alt="Top Languages" />
-
-<br/><br/>
-
 <img width="70%" src="https://streak-stats.demolab.com?user=niranjans20&theme=radical&background=0D1117&ring=FFD54F&fire=FF9800&currStreakLabel=FFD54F&border=FFD54F&stroke=FFD54F&border_radius=10" alt="GitHub Streak" />
 
 <br/><br/>
