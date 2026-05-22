@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://niranjans20.github.io/Student-Portfolio/](https://student-portfolio-steel.vercel.app/">
+  <a href="https://student-portfolio-steel.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
   &nbsp;
